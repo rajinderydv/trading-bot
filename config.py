@@ -1,0 +1,56 @@
+# API
+ACCESS_TOKEN = "260cc812-7070-483d-9c31-fdbbe331a5c8"
+TOTP_SECRET = "JDLXV4SQRRI7GWWHL7INZ6I2GY"
+
+MOBILE_NUMBER = "+919478030811"
+CLIENT_ID = "YG7ZJ"
+PASSWORD = "Kotak@5928"
+MPIN = "592859"
+
+# Trading Mode
+PAPER_TRADING = True
+
+# Market
+EXCHANGE_SEGMENT = "nse_cm" # nifty index for cash market  
+# EXCHANGE_SEGMENT = "nse_fo" # nifty index for future and option market   
+
+INSTRUMENT_TOKEN = "Nifty 50"
+
+MARKET_OPEN = "09:15"
+MARKET_CLOSE = "15:30"
+
+# Strategy
+TIMEFRAME = "5minute"
+
+LOT_SIZE = 65          # Verify with the current NIFTY contract
+
+STRIKE_STEP = 50
+
+STRIKE_OFFSET = 50
+
+SUPER_PERIOD = 7
+SUPER_MULTIPLIER = 3
+
+ENTRY_TIME = "09:20"
+EXIT_TIME = "15:20"
+
+MAX_POSITION = 1
+
+# Stop Loss
+NON_EXPIRY_SL = 1.5
+EXPIRY_SL = 2.0
+
+# Pivot
+PIVOT_TIMEFRAME = "1day"
+USE_PREVIOUS_DAY_PIVOT = True
+
+# Loop
+REFRESH_INTERVAL = 5
+
+# Logging
+LOG_FOLDER = "logs"
+LOG_LEVEL = "INFO"
+
+# Misc
+STRATEGY_NAME = "NIFTY_ATM_PLUS_50_OPTION_SELLING"
+BOT_VERSION = "1.0.0"
