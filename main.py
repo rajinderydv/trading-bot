@@ -1,7 +1,7 @@
-pipimport inspect
+
 import pandas as pd
 import json
-from pprint import pprint
+
 from utils import *
 
 from config import *

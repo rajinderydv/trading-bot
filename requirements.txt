@@ -3,6 +3,7 @@ bidict==0.22.1
 certifi==2022.12.7
 charset-normalizer==3.4.9
 idna==2.10
+neo-api-client @ git+https://github.com/Kotak-Neo/Kotak-neo-api-v2.git@539b6022c2c5fe138d6d0a893bbe554cacca10b6
 numpy==2.1.0
 pandas==2.2.3
 pyjsparser==2.7.1
