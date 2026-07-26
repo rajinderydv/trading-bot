@@ -1,4 +1,4 @@
-import inspect
+pipimport inspect
 import pandas as pd
 import json
 from pprint import pprint
