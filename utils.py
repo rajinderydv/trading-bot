@@ -58,8 +58,10 @@ def round_to_strike(price):
 
 
 def today():
-    return datetime.now().strftime("%Y-%m-%d")
+    return datetime.now().strftime("%d-%m-%Y")
 
 
 def yesterday():
     return (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
+
+print(today())
